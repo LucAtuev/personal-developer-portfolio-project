@@ -1,7 +1,6 @@
 .navigation{
   display: flex;
   margin-top: 40px;
-  margin-left: 25px;
   align-items: center;
   justify-content: space-between;
 }
@@ -19,4 +18,103 @@
 .projects{
   margin-left: 40px;
   font-size: 18px;
+}
+
+ /* Hero-section */
+
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.main-description-image{
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 150px;
+  flex-shrink: 0;
+  transition: box-shadow 0.2s;
+}
+.main-description-image:hover{
+  box-shadow: 0px 0px 20px rgb(0, 0, 0,0.7);
+}
+.image-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-right: 18px;
+}
+.cool-pictures-text{
+  margin-right: 30px;
+  font-size: 20px;
+}
+.text-elements{
+  width: 600px;
+}
+.what-am-i-doing{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.my-learning{
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+.view-my-projects{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 18px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px rgba(7, 7, 7, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  transition: background-color 0.4s, color 0.4s
+  , box-shadow 0.4s ;
+}
+.view-my-projects:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: -1px -1px 8px rgba(7, 7, 7, 0.5);
+}
+
+/* About Me Section */
+
+.about-me{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.who-i-am{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.my-interests{
+  font-size: 18px;
+}
+.about-me-title{
+  margin-bottom: 30px;
+}
+
+/* What I'm Learning */
+
+.what-im-learning{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.what-im-learning-title{
+  margin-bottom: 30px;
+}
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
