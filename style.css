@@ -235,3 +235,36 @@
 .github-projects-link:active{
   box-shadow: 8px 8px 10px rgba(20, 20, 20, 0.6);
 }
+
+/* Goals */
+
+.my-goals{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.my-goals-title{
+  font-size: 30px;
+}
+.goals-list{
+  font-size: 20px;
+  line-height: 50px;
+  padding-left: 0;
+  text-align: left;
+}
+.goal{
+  transition: background-color 0.3s,
+  color 0.3s,  border-radius 0.3s, transform 0.3s, box-shadow 0.3s
+  ;
+  padding-right: 55px;
+}
+.goal:hover{
+  background-color: rgb(20, 20, 20);
+  color: rgb(197,160,89);
+  border-radius: 20px;
+  font-style: oblique;
+  list-style: none;
+  transform: translateX(-30px);
+  box-shadow: -15px 0px 0px rgba(20, 20, 20, 1);
+}
