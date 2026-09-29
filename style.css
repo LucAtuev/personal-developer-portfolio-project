@@ -6,6 +6,7 @@
 }
 .name{
   font-size: 20px;
+  margin-left: 100px;
 }
 .links{
   margin-right:20px;
@@ -26,19 +27,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 170px;
   margin-bottom: 50px;
 }
 .main-description-image{
-  width: 110px;
-  height: 110px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 150px;
   flex-shrink: 0;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, border-color 0.3s,
+  transform 0.1s;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
 }
 .main-description-image:hover{
-  box-shadow: 0px 0px 20px rgb(0, 0, 0,0.7);
+  box-shadow: 0px 0px 30px rgb(20, 20, 20,0.8);
+  border-color: rgb(197,160,89);
+}
+.main-description-image:active{
+  transform: scale(0.7);
+  cursor: pointer;
+  z-index: 500;
 }
 .image-container{
   display: flex;
@@ -46,20 +57,74 @@
   flex-wrap: wrap;
   margin-top: 50px;
   margin-right: 18px;
+  position: relative;
+}
+.budva-sunset{
+  right: 345px;
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  top: -10px;
+}
+.morocco-hills{
+  position: absolute;
+  right: 40px;
+  top: 190px;
+  height: 190px;
+  width: 190px;
+}
+.sahara-desert{
+  position: absolute;
+  top: 195px;
+  right: 255px;
+}
+.ulcin-crystal{
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  right: 0px;
+  top: 30px;
+}
+.cyprus-lagoon{
+  position: absolute;
+  top: -185px;
+  right: 255px;
+  height: 150px;
+  width: 150px;
+}
+.cyprus-sunset{
+  position: absolute;
+  right: 155px;
+  top: 45px;
+}
+.sagrada-familia{
+  position: absolute;
+  right: 80px;
+  top: -170px;
 }
 .cool-pictures-text{
   margin-right: 30px;
   font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  width: 280px;
+  z-index: 100;
+  color: rgb(20, 20, 20);
 }
 .text-elements{
   width: 600px;
+  margin-left: 100px;
+}
+.hello{
+  margin-bottom: 40px;
 }
 .what-am-i-doing{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 18px;
 }
 .my-learning{
-  margin-bottom: 35px;
+  margin-bottom: 65px;
   font-size: 18px;
 }
 .view-my-projects{
@@ -268,3 +333,25 @@
   transform: translateX(-30px);
   box-shadow: -15px 0px 0px rgba(20, 20, 20, 1);
 }
+
+/* footer */
+.footer{
+  margin-top: 150px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.Github{
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  background-color: rgb(197,160,89);
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.Github:hover{
+  background-color: rgb(20, 20, 20);
+  color: rgb(197,160,89);
+  box-shadow: 5px -5px 8px rgba(20, 20, 20, 0.6);
+} 
