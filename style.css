@@ -29,6 +29,21 @@
   align-items: center;
   margin-top: 170px;
   margin-bottom: 50px;
+  position: relative;
+}
+.divider{
+  width: 5px;
+  height: 300px;
+  background-color: rgb(20, 20, 20);
+  top: 250px;
+}
+.divider1{
+  position: absolute;
+  left: 700px;
+}
+.divider2{
+  position: absolute;
+  right: 700px;
 }
 .main-description-image{
   width: 160px;
