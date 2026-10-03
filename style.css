@@ -30,20 +30,33 @@
   margin-top: 170px;
   margin-bottom: 50px;
   position: relative;
+  height: 350px;
+}
+.a-few-things-i-like{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+.dividers{
+  position: absolute;
+  left: 33.3%;
+  right: 33.3%;
+  height: 90%;
 }
 .divider{
   width: 5px;
-  height: 300px;
+  height: 100%;
   background-color: rgb(20, 20, 20);
-  top: 250px;
+  position: absolute;
 }
 .divider1{
-  position: absolute;
-  left: 700px;
+  left: 0;
+  transform: translateX(-50%);
 }
 .divider2{
-  position: absolute;
-  right: 700px;
+  right: 0;
+  transform: translateX(50%);
 }
 .main-description-image{
   width: 160px;
@@ -70,7 +83,6 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 50px;
   margin-right: 18px;
   position: relative;
 }
