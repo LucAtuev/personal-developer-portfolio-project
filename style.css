@@ -76,6 +76,9 @@
   box-shadow: 0px 0px 10px rgba(197,160,89,0.7);
   background-color: rgb(250, 249, 246);
 }
+.tooltip{
+  display:none;
+}
 .main-description-image{
   width: 160px;
   height: 160px;
