@@ -93,18 +93,52 @@
   box-sizing: border-box;
   pointer-events: none;
 }
-.football:hover .tooltip{
+.hobby:hover .tooltip{
   opacity: 1;
   pointer-events: auto;
+}
+.hover-bridge{
+  background-color: transparent;
+  width: 60px;
+  height: 45px;
+  padding-right: 20px;
+  position: absolute;
+  padding-bottom: 5px;
+}
+.hover-bridge-football{
+  left: 28%;
+  top: 10%;
+}
+.hover-bridge-gym{
+  top: 10%;
+  right: 28%;
+}
+.hover-bridge-coding{
+  left: 28%;
+  top: 40%;
+}
+.hover-bridge-travel{
+  right: 28%;
+  top: 40%;
+}
+.hover-bridge-motorsport{
+  left: 28%;
+  bottom: 6%;
+}
+.hover-bridge-planes{
+  bottom: 6%;
+  right: 28%;
 }
 .tt-image{
   width: 100%;
   height: 40px;
+  border: 1.5px solid transparent;
   object-fit: cover;
-  transition: transform 0.3s;
+  transition: transform 0.3s ,border 0.3s;
 }
 .tt-image:hover{
-  transform: scale(1.1);
+  transform: scale(1.25);
+  border: 1.5px solid rgb(197,160,89);
 }
 .hobby-name{
   padding-bottom: 10%;
