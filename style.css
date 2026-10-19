@@ -126,8 +126,8 @@
   bottom: 6%;
 }
 .hover-bridge-planes{
-  bottom: 6%;
   right: 28%;
+  bottom: 6%;
 }
 .tt-image{
   width: 100%;
@@ -152,7 +152,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 8px 8px;
+  gap: 8px;
 }
 .main-description-image{
   width: 160px;
@@ -272,12 +272,12 @@
 /* About Me Section */
 
 .about-me{
-  margin-bottom: 150px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 10%;
+  margin-bottom: 7%;
+  text-align: center;
 }
 .who-i-am{
   font-size: 18px;
@@ -293,7 +293,7 @@
 /* What I'm Learning */
 
 .what-im-learning{
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -304,19 +304,19 @@
 .skills-container{
   display:grid; 
   grid-template-columns: 1fr 1fr;
-  gap: 150px;
+  gap: 5rem 5rem;
   width: 75%;
 }
 .icon{
   width: 200px;
   height: 200px;
   object-fit: contain;
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 .container{
   border-style: solid;
   border-width: 3px;
-  padding: 55px 45px;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -327,14 +327,15 @@
   background-color: rgb(247,245,240);
   transition: background-color 0.2s, color
   0.2s, box-shadow 0.2s, border-color 0.2s, transform 0.3s;
+  text-align: center;
 }
 .text{
-  font-size: 25px;
+  font-size: 150%;
   margin-bottom: 30px;
   font-weight: 700;
 }
 .description{
-  font-size: 21px;
+  font-size: 130%;
   font-weight: 300;
 }
 .container:hover{
@@ -344,16 +345,16 @@
   border-color: rgb(20,20,20);
 }
 .html-container:hover{
-  transform: translateX(60px) translateY(60px);
+  transform: translateX(5%) translateY(5%);
 }
 .css-container:hover{
-  transform: translateX(-60px) translateY(60px);
+  transform: translateX(-5%) translateY(5%);
 }
 .javascript-container:hover{
-  transform: translateX(60px) translateY(-60px);
+  transform: translateX(5%) translateY(-5%);
 }
 .ai-container:hover{
-  transform: translateX(-60px) translateY(-60px);
+  transform: translateX(-5%) translateY(-5%);
 }
 
 /* Projects */
