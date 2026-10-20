@@ -1,8 +1,9 @@
 body{
   font-family: Josefin Sans;
-  padding-left: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: rgb(20,20,20);
-  margin-bottom: 700px;
+  margin-bottom: 6rem;
 }
 div{
   margin-top: 0;

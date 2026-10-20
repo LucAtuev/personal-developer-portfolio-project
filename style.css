@@ -114,11 +114,11 @@
   right: 28%;
 }
 .hover-bridge-coding{
-  left: 28%;
+  left: 23%;
   top: 40%;
 }
 .hover-bridge-travel{
-  right: 28%;
+  right: 23%;
   top: 40%;
 }
 .hover-bridge-motorsport{
@@ -365,17 +365,21 @@
   gap: 50px;
 }
 .my-projects{
-  position: relative;
-  margin-top: 350px;
+  margin-top: 10rem;
 }
 .my-projects-title{
-  position: absolute;
-  top: -100px;
-  left: 50%;
-  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 .screenshot{
   width: 100%;
+  height: 118px;
+  object-fit: cover;
+}
+.personal-website-screenshot{
+  border: 2px rgb(20, 20, 20) solid;
 }
 .project-card{
   border-style: solid;
@@ -386,7 +390,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .project-123{
   font-size: 25px;
@@ -431,7 +434,7 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 10rem;
 }
 .my-goals-title{
   font-size: 30px;
@@ -440,11 +443,12 @@
   font-size: 20px;
   line-height: 50px;
   padding-left: 0;
-  text-align: left;
 }
 .goal{
+  list-style: none;
   transition: background-color 0.3s,
-  color 0.3s,  border-radius 0.3s, transform 0.3s, box-shadow 0.3s
+  color 0.3s,  border-radius 0.3s, transform 0.3s, box-shadow 0.3s,
+  font-style 0.1s
   ;
   padding-right: 55px;
 }
@@ -453,9 +457,8 @@
   color: rgb(197,160,89);
   border-radius: 20px;
   font-style: oblique;
-  list-style: none;
-  transform: translateX(-30px);
-  box-shadow: -15px 0px 0px rgba(20, 20, 20, 1);
+  transform: translateX(-15px);
+  box-shadow: -10px 0px 0px rgba(20, 20, 20, 1);
 }
 
 /* footer */
