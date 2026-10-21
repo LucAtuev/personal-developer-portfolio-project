@@ -8,14 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
      rel="stylesheet">
     <title>Luca Batuev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <nav class="navigation">
       <div class="name">Luca Batuev</div>
       <div class="links">
-        <a class="about">About</a>
-        <a class="skills">Skills</a>
-        <a class="projects">Projects</a>
+        <a class="about" href="#about">About</a>
+        <a class="skills" href="#skills">Skills</a>
+        <a class="projects" href="#projects">Projects</a>
       </div>
     </nav>
 
@@ -32,16 +33,16 @@
          I'm currently learning HTML, CSS, JavaScript
          and AI.
        </p>
-        <a class="view-my-projects" href="https://github.com/LucAtuev" target="_blank">
+        <a class="view-my-projects" href="#projects">
          View My Projects
         </a>
       </div>
       <div class="dividers">
         <div class="divider divider1"></div>
         <div class="middle-hero-section">
-          <h1 class="a-few-things-i-like">
+          <h2 class="a-few-things-i-like">
             A few things I like
-          </h1>
+          </h2>
           <div class="hobbies-container">
             <div class="hobby football">
               Football
@@ -154,23 +155,23 @@
          A few of my favourite places I've visited.
         </p>
         <img src="personal-website-images/Screenshot 2026-08-05 131135.png" 
-        class="main-description-image budva-sunset">
+        class="main-description-image budva-sunset" alt="A sunset over the sea and the hills with a view of an ancient settlement.">
         <img src="personal-website-images/Screenshot 2026-08-05 131315.png"
-        class="main-description-image morocco-hills">
+        class="main-description-image morocco-hills" alt="A shaped hill mixed between forest green and scarlett red stands out in the landscape.">
         <img src="personal-website-images/Screenshot 2026-08-05 131838.png"
-        class="main-description-image sahara-desert">
+        class="main-description-image sahara-desert" alt="Me doing a funny pose as the sandy sahara covers the whole landscape.">
         <img src="personal-website-images/Screenshot 2026-08-06 180614.png"
-        class="main-description-image cyprus-sunset">
+        class="main-description-image cyprus-sunset" alt="A faraway sunset belittles me standing over the granite.">
         <img src="personal-website-images/Screenshot 2026-08-06 180851.png"
-        class="main-description-image cyprus-lagoon">
+        class="main-description-image cyprus-lagoon" alt="A crystal clear lagoon sparkles in the fading light of the sunset.">
         <img src="personal-website-images/Screenshot 2026-08-06 182145.png"
-        class="main-description-image ulcin-crystal">
+        class="main-description-image ulcin-crystal" alt="An aesthetic shingle beach with turquoise clear water.">
         <img src="personal-website-images/Screenshot 2026-08-06 181453.png"
-        class="main-description-image sagrada-familia">
+        class="main-description-image sagrada-familia" alt="A cathedral so tall and detailed towers over me.">
       </div>
     </div>
 
-    <div class="about-me">
+    <div class="about-me" id="about">
       <h2 class="about-me-title">ABOUT ME</h2>
       <p class="who-i-am">
         I'm Luca, a beginner developer learning how to build 
@@ -182,7 +183,7 @@
       </p>
     </div>
 
-    <div class="what-im-learning">
+    <div class="what-im-learning" id="skills">
       <h2 class="what-im-learning-title">WHAT I'M LEARNING</h2>
       <div class="skills-container">
         <div class="container html-container">
@@ -208,7 +209,7 @@
       </div>
     </div>
 
-    <div class="my-projects">
+    <div class="my-projects" id="projects">
       <h2 class="my-projects-title">MY PROJECTS</h2>
       <div class="projects-container">
         <div class="project-1 project-card">
@@ -216,7 +217,9 @@
           <img src="personal-website-project-screenshots/Screenshot 2026-10-20 103118.png" class="personal-website-screenshot screenshot">
           <p class="project-title">Personal Developer Page</p>
           <p class="short-description">A landing page about me and my growing journey in web development.</p>
-          <a class="github-projects-link" href="https://github.com/LucAtuev/personal-developer-portfolio-project" target="_blank">Find This Project!</a>
+          <a class="github-projects-link" href="https://github.com/LucAtuev/personal-developer-portfolio-project" rel="noopener noreferrer" target="_blank">
+            Find This Project!
+          </a>
         </div>
         <div class="project-2 project-card">
           <p class="project-123">PROJECT 2</p>
@@ -247,7 +250,10 @@
     </div>
 
     <footer class="footer">
-      <p class="copyright">&#169; &#8226; 2026 &#8226; Luca Batuev &#8226; <a href="https://github.com/LucAtuev" target="_blank" class="Github"> Github</a></p>
+      <p class="copyright">&#169; &#8226; 2026 &#8226; Luca Batuev &#8226; <a href="https://github.com/LucAtuev" rel="noopener noreferrer" target="_blank" class="Github"> 
+        Github
+      </a>
+    </p>
     </footer>
 
   </body>
