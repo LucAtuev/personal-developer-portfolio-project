@@ -19,6 +19,8 @@
 .projects{
   margin-left: 40px;
   font-size: 18px;
+  color: rgb(20, 20, 20);
+  text-decoration: none;
 }
 
  /* Hero-section */
@@ -485,7 +487,10 @@
 
 /* RESPONSIVE DESIGN */
 
-@media(max-width:320px){
+@media(max-width:768px){
+ 
+  /* Hero*/
+
   .hero-section{
     flex-direction: column;
     height: auto;
@@ -549,5 +554,42 @@
   .image-container{
     margin-bottom: 6rem;
     justify-content: center;
+  }
+  /*Skills*/
+
+  .icon{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1.4rem;
+  }
+  .ai-icon{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 0.5rem;
+    background: none;
+  }
+  .container{
+    height: 250px;
+    width: 170px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .description{
+    font-size: 12px;
+    width: 150px;
+  }
+  .text{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .skills-container{
+    gap: 2.5rem;
+  }
+
+  /* Projects */
+  .projects-container{
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 5rem;
   }
 } 
