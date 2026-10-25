@@ -7,6 +7,9 @@
 .name{
   font-size: 20px;
   margin-left: 100px;
+  border: solid 2px rgb(197,160,89);
+  padding: 0.5rem;
+  border-radius: 15px;
 }
 .links{
   margin-right:20px;
@@ -496,11 +499,27 @@
     height: auto;
     margin-top: 5rem;
   }
+  .hello{
+    font-size: 25px;
+    margin-bottom: 2rem;
+  }
+  .what-am-i-doing,
+  .my-learning{
+    font-size: 16px;
+    width: 280px;
+  }
+  .my-learning{
+    margin-bottom: 40px;
+  }
+  .view-my-projects{
+    font-size: small;
+    padding: 13px 15px;
+  }
   .text-elements{
     width: 250px;
     margin-left: 0;
     text-align: center;
-    margin-bottom:6rem;
+    margin-bottom:5rem;
   }
   .divider{
     position: static;
@@ -588,5 +607,23 @@
     flex-direction: column;
     margin-right: 0;
     margin-left: 0;
+  }
+
+  /* Navigation */
+  .name{
+    margin-right: 1rem;
+    margin-left: 0;
+    font-size: 16px;
+    width: 150px;
+    margin-right: 0;
+  }
+  .about,
+  .skills,
+  .projects{
+    font-size: 15px;
+    margin-left: 1rem;
+  }
+  .links{
+    margin-left: 9rem;
   }
 } 
