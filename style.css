@@ -558,38 +558,35 @@
   /*Skills*/
 
   .icon{
-    height: 100px;
-    width: 100px;
+    height:90px;
+    width: 90px;
     margin-bottom: 1.4rem;
   }
-  .ai-icon{
-    height: 120px;
-    width: 120px;
-    margin-bottom: 0.5rem;
-    background: none;
-  }
   .container{
-    height: 250px;
-    width: 170px;
+    height: 200px;
+    width: 129px;
     padding-left: 3rem;
     padding-right: 3rem;
   }
   .description{
-    font-size: 12px;
-    width: 150px;
+    font-size: 10px;
+    width: 100px;
   }
   .text{
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .skills-container{
-    gap: 2.5rem;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
   }
 
   /* Projects */
   .projects-container{
     flex-direction: column;
     margin-right: 0;
-    margin-left: 5rem;
+    margin-left: 0;
   }
 } 
