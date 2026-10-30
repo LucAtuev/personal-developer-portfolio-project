@@ -584,8 +584,8 @@
   .container{
     height: 200px;
     width: 129px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .description{
     font-size: 10px;
@@ -607,6 +607,13 @@
     flex-direction: column;
     margin-right: 0;
     margin-left: 0;
+    justify-content: space;
+  }
+  .project-card{
+    width: 280px;
+  }
+  .short-description{
+    font-size: 15px;
   }
 
   /* Navigation */
@@ -627,3 +634,8 @@
     margin-left: 9rem;
   }
 } 
+@media (min-width: 425.02px) and (max-width: 768px){
+  .project-card{
+    margin-left: 14rem;
+  }
+}
